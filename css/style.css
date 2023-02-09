@@ -46,6 +46,7 @@ main {
 .my-failures {
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 
 }
 
@@ -61,6 +62,36 @@ main {
 ul {
     list-style-type: square;
 }
-ul li{
+
+ul li {
     margin-bottom: 10px;
+}
+
+/* Course section style  */
+.course-header {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 50px 0;
+    text-align: center;
+}
+.course-con{
+    display: flex;
+    gap: 100px;
+}
+
+.course {
+    text-align: center;
+}
+
+.course h3 {
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.course p {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+
 }
