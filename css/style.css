@@ -74,7 +74,8 @@ ul li {
     margin: 50px 0;
     text-align: center;
 }
-.course-con{
+
+.course-con {
     display: flex;
     gap: 100px;
 }
@@ -94,4 +95,86 @@ ul li {
     font-size: 25px;
     color: #737272;
 
+}
+
+/* gradient style  */
+.gradient {
+    background-image: url(/images/gradient1.png), url(/images/watch.png);
+    width: 1140px;
+    height: 300px;
+    margin-top: 100px;
+}
+.gradient-con{
+    padding: 50px;
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    width: 450px;
+
+}
+.gradient-btn{
+    font-weight: 600;
+font-size: 20px;
+color: #F15B22;
+padding: 20px 30px;
+border-radius: 5px;
+border: none;
+}
+
+/* Footer style  */
+footer {
+    background-color: #151414;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+}
+
+.footer title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+footer p {
+    margin: 15px 0;
+    width: 480px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.email {
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #151414;
+    border: 1px solid white;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+.footer-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
 }
