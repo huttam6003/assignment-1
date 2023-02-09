@@ -4,7 +4,7 @@
 
 /* header style  */
 header {
-    background-image: url(/images/banner/banner2.png);
+    background-image: url(../images/banner/banner2.png);
     height: 800px;
     text-align: right;
     padding-right: 200px;
@@ -26,6 +26,7 @@ header {
 .primary-text {
     color: #444343;
     margin: 30px 0;
+
 }
 
 .primary-btn {
@@ -67,6 +68,28 @@ ul li {
     margin-bottom: 10px;
 }
 
+/* Mission section  */
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.mission h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.mission-text {
+    width: 450px;
+    color: #444343;
+}
+.mission img{
+    border-radius: 20px;
+}
+
 /* Course section style  */
 .course-header {
     font-weight: 700;
@@ -104,7 +127,8 @@ ul li {
     height: 300px;
     margin-top: 100px;
 }
-.gradient-con{
+
+.gradient-con {
     padding: 50px;
 }
 
@@ -116,13 +140,14 @@ ul li {
     width: 450px;
 
 }
-.gradient-btn{
+
+.gradient-btn {
     font-weight: 600;
-font-size: 20px;
-color: #F15B22;
-padding: 20px 30px;
-border-radius: 5px;
-border: none;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
 }
 
 /* Footer style  */
